@@ -1,0 +1,11 @@
+F:\code\DEMp\DEMp\bin\Debug\DEMp.exe
+F:\code\DEMp\DEMp\bin\Debug\DEMp.pdb
+F:\code\DEMp\DEMp\bin\Debug\OpenTK.dll
+F:\code\DEMp\DEMp\obj\x86\Debug\DEMp.csprojResolveAssemblyReference.cache
+F:\code\DEMp\DEMp\obj\x86\Debug\DEMp.Form1.resources
+F:\code\DEMp\DEMp\obj\x86\Debug\DEMp.Properties.Resources.resources
+F:\code\DEMp\DEMp\obj\x86\Debug\DEMp.csproj.GenerateResource.Cache
+F:\code\DEMp\DEMp\obj\x86\Debug\DEMp.exe
+F:\code\DEMp\DEMp\obj\x86\Debug\DEMp.pdb
+F:\code\DEMp\Bin\DEMp.exe
+F:\code\DEMp\Bin\DEMp.pdb

@@ -1,0 +1,202 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DemLib</name>
+    </assembly>
+    <members>
+        <member name="F:DemLib.RibbonWin.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:DemLib.RibbonWin.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:DemLib.RibbonWin.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:DemLib.DEM.mRowsNum">
+            <summary>
+            行数
+            </summary>
+        </member>
+        <member name="F:DemLib.DEM.mRibbon">
+            <summary>
+            色带类
+            </summary>
+        </member>
+        <member name="F:DemLib.DEM.COLOR_NUM">
+            <summary>
+            定义的色带分层数
+            </summary>
+        </member>
+        <member name="F:DemLib.DEM.mIrregularGridPoints">
+            <summary>
+            用来存储不规则格网
+            </summary>
+        </member>
+        <member name="M:DemLib.DEM.InitializeByGridFile(System.String)">
+            <summary>
+            根据文件进行初始化Dem对象，规则格网数据的读取
+            </summary>
+            <param name="filePath"></param>
+        </member>
+        <member name="M:DemLib.DEM.InitializeByIrregularFile(System.String)">
+            <summary>
+            根据文件进行初始化Dem对象，不规则离散数据的读取
+            </summary>
+            <param name="filePath"></param>
+        </member>
+        <member name="M:DemLib.DEM.GaryShow">
+            <summary>
+            灰度显示
+            </summary>
+            <param name="graphics">需要绘制的载体</param>
+        </member>
+        <member name="M:DemLib.DEM.LayeredColor">
+            <summary>
+            分层设色渲染
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:DemLib.ShowType">
+            <summary>
+            定义显示方式
+            </summary>
+        </member>
+        <member name="F:DemLib.ShowType.GrayScale">
+            <summary>
+            灰度
+            </summary>
+        </member>
+        <member name="F:DemLib.ShowType.LayeredColor">
+            <summary>
+            分层设色
+            </summary>
+        </member>
+        <member name="F:DemLib.rayvector.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:DemLib.rayvector.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:DemLib.rayvector.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:DemLib.Geomorphicvertigo.Normalvector(DemLib.triangle)">
+            <summary>
+            计算三角形的法向量，按照顺时针进行计算
+            </summary>
+            <param name="tri">索要计算的法向量</param>
+            <returns></returns>
+        </member>
+        <member name="M:DemLib.Geomorphicvertigo.d_raytovector_angle(DemLib.vector,DemLib.vector)">
+            <summary>
+             //计算单个向量的夹角
+            </summary>
+            <param name="ray">太阳高度角的矢量</param>
+            <param name="vectorvalue">规则格网的矢量</param>
+            <returns></returns>
+        </member>
+        <member name="M:DemLib.Geomorphicvertigo.i_cellvalue_hillshade(System.Double[0:,0:],System.Int32,System.Int32)">
+            <summary>
+            重头戏！！！！输出灰度值
+            </summary>
+            <param name="angle"></param>
+            <param name="RowsNum"></param>
+            <param name="ColsNum"></param>
+            <returns></returns>
+        </member>
+        <member name="F:DemLib.CreateTin.mXmax">
+            <summary>
+            X的最大值
+            </summary>
+        </member>
+        <member name="F:DemLib.CreateTin.mXmin">
+            <summary>
+            X的最小值
+            </summary>
+        </member>
+        <member name="F:DemLib.CreateTin.mYmax">
+            <summary>
+            Y的最大值
+            </summary>
+        </member>
+        <member name="F:DemLib.CreateTin.mYmin">
+            <summary>
+            Y的最小值
+            </summary>
+        </member>
+        <member name="F:DemLib.CreateTin.mTinPoints">
+            <summary>
+            存放TIN数据的所有点数
+            </summary>
+        </member>
+        <member name="F:DemLib.CreateTin.mTintriangle">
+            <summary>
+            存储所有的三角形
+            </summary>
+        </member>
+        <member name="F:DemLib.CreateTin.mWid">
+            <summary>
+            创建TIN图幅的宽
+            </summary>
+        </member>
+        <member name="F:DemLib.CreateTin.mHig">
+            <summary>
+            创建TIN图幅的高
+            </summary>
+        </member>
+        <member name="M:DemLib.CreateTin.#ctor(DemLib.vector[])">
+            <summary>
+            构造函数
+            </summary>
+            <param name="tinPoints">点数</param>
+        </member>
+        <member name="M:DemLib.CreateTin.GetPointsRange(DemLib.vector[])">
+            <summary>
+            找到最大值和最小值
+            </summary>
+            <param name="tinPoints">TIN的点数组</param>
+        </member>
+        <member name="P:DemLib.CreateTin.TinPoints">
+            <summary>
+            取出所有的点数据
+            </summary>
+        </member>
+        <member name="F:DemLib.MyGLControl._loaded">
+            <summary>
+                标记是否已经加载
+            </summary>
+        </member>
+        <member name="M:DemLib.MyGLControl.SetupViewport">
+            <summary>
+                创建OpenGL视图
+            </summary>
+        </member>
+        <member name="M:DemLib.MyGLControl.Render">
+            <summary>
+                OpenGL 渲染
+            </summary>
+        </member>
+        <member name="F:DemLib.MyGLControl.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+    </members>
+</doc>

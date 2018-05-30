@@ -1,0 +1,12 @@
+F:\code\DEMp\DemLib\bin\Debug\DemLib.dll
+F:\code\DEMp\DemLib\bin\Debug\DemLib.pdb
+F:\code\DEMp\DemLib\obj\Debug\DemLib.dll
+F:\code\DEMp\DemLib\obj\Debug\DemLib.pdb
+F:\code\DEMp\DemLib\obj\Debug\DemLib.rayvector.resources
+F:\code\DEMp\DemLib\obj\Debug\DemLib.csproj.GenerateResource.Cache
+F:\code\DEMp\Bin\DemLib.dll
+F:\code\DEMp\Bin\DemLib.pdb
+F:\code\DEMp\Bin\DemLib.XML
+F:\code\DEMp\DemLib\obj\Debug\DemLib.RibbonWin.resources
+F:\code\DEMp\DemLib\obj\Debug\DemLib.MyGLControl.resources
+F:\code\DEMp\DemLib\obj\Debug\DemLib.csprojResolveAssemblyReference.cache
